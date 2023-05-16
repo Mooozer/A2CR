@@ -323,19 +323,7 @@ else:
 
 
 
-def Env_preprocess(env_name, movement = 'COMPLEX_MOVEMENT'):
-    if 'SuperMarioBros' in env_name:
-        env = gym_super_mario_bros.make(env_name) 
-        env = wrap_pytorch(wrap_SuperMarioBros(make_atari(env,skip=3),episode_life=False,clip_rewards=False,frame_stack=True,scale=True))
-        if movement == 'RIGHT_ONLY':
-            env = JoypadSpace(env, RIGHT_ONLY)  #RIGHT_ONLY, SIMPLE_MOVEMENT, and COMPLEX_MOVEMENT
-        if movement == 'SIMPLE_MOVEMENT':
-            env = JoypadSpace(env, SIMPLE_MOVEMENT)  
-        if movement == 'COMPLEX_MOVEMENT':
-            env = JoypadSpace(env, COMPLEX_MOVEMENT)  
-    else: 
-        env = wrap_pytorch(wrap_deepmind(make_atari(gym.make(env_name),skip=3),episode_life=True,clip_rewards=True,frame_stack=False,scale=True))
-    return env  
+
 
 
 
