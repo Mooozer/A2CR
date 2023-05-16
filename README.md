@@ -1,2 +1,2 @@
-![A2CR](https://github.com/Mooozer/A2CR/blob/main/allMarioBros.gif)
-![A2CR](https://github.com/Mooozer/A2CR/blob/main/a.gif =500x300)
+![MarioBros](https://github.com/Mooozer/A2CR/blob/main/MarioBros.gif)
+![MarioBros_GradCam](https://github.com/Mooozer/A2CR/blob/main/MarioBros_GradCam.gif)
