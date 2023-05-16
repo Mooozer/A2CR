@@ -1,4 +1,4 @@
-We will make our code publicly available once our paper is accepted. Thank you for your review and understanding! 
+We will make our full code publicly available once our paper is accepted. Thank you for your review and understanding! 
 
 These are examples of trained agents playing on the Super Mario Bros environment:
 
